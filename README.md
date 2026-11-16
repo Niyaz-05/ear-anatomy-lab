@@ -1,5 +1,7 @@
 # Human Ear — Interactive 3D Learning Lab
 
+**Live:** https://ear-anatomy-lab.vercel.app
+
 An interactive 3D right ear for university anatomy, physiology and audiology students: from the auricle through the canal, eardrum and ossicles to the cochlea, vestibule and semicircular canals, with the facial and vestibulocochlear nerves, inside a cut-away temporal bone. Works on phones and tablets (the details rise from the bottom in a sheet).
 
 - **Real look.** Ivory bone, skin over the auricle, a pearly translucent eardrum, the ossicles, clear perilymph (pale aqua) and endolymph (lavender) spaces, cream-yellow nerves, a red carotid and a blue sigmoid sinus. "Colour" switches to **Layers**.
