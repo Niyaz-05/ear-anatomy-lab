@@ -1,0 +1,311 @@
+{
+  "output": {
+    "file": "public/models/ear.glb",
+    "bytes": 4983004,
+    "sha256": "f4d9bfdf441f8941eb293f2569d677f9b29794f220f55a967e53ad2454d18fb3",
+    "triangles": 247678,
+    "sourceTriangles": 57216
+  },
+  "sources": {
+    "bodyparts3d": {
+      "name": "BodyParts3D 4.0 (Database Center for Life Science), via the Human Atlas build",
+      "license": "CC-BY-4.0",
+      "intermediate": "github.com/Niyaz-05/human-atlas, commit 76f069640f2c3dd40a58d1556896ac25008f592e",
+      "atlasJsonSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+      "chunkSha256": {
+        "body-10.bin": "4a959d998acd35cf88518a0f2f8ab99b42d9f69c7ce0d6a814df315eeac807ac",
+        "body-13.bin": "4c51b6be85d5b705d2b52b79b9ad1cdae0b65ad03c9402a2f2673c7633fd94f3",
+        "body-12.bin": "61a6c8da89bb20df50c575964ac81aa4090eabfc2cb27ad2155aea325f31c6c0"
+      },
+      "parts": {
+        "auricle": [
+          "FJ2811 External ear (right half)"
+        ],
+        "temporal-bone": [
+          "FJ3386 Right temporal bone"
+        ],
+        "skull": [
+          "FJ3200 Frontal bone",
+          "FJ3274 Left parietal bone",
+          "FJ3380 Right parietal bone",
+          "FJ3309 Occipital bone",
+          "FJ3394 Sphenoid bone",
+          "FJ3199 Ethmoid",
+          "FJ3281 Left temporal bone",
+          "FJ3269 Left maxilla",
+          "FJ3375 Right maxilla",
+          "FJ3287 Left zygomatic bone",
+          "FJ3392 Right zygomatic bone",
+          "FJ3272 Left nasal bone",
+          "FJ3378 Right nasal bone",
+          "FJ3273 Left palatine bone",
+          "FJ3379 Right palatine bone",
+          "FJ3395 Vomer",
+          "FJ3263 Left inferior nasal concha",
+          "FJ3369 Right inferior nasal concha",
+          "FJ3265 Left lacrimal bone",
+          "FJ3371 Right lacrimal bone",
+          "FJ3289 Mandible"
+        ]
+      }
+    }
+  },
+  "frame": {
+    "origin": "centre of the right tympanic membrane",
+    "units": "metres",
+    "axes": {
+      "x": "lateral",
+      "y": "superior",
+      "z": "anterior"
+    },
+    "tympanicMembraneCentreInBodyParts3D": [
+      -0.045,
+      1.5817,
+      -0.0115
+    ],
+    "transform": "model = (−(X − X0), Y − Y0, Z − Z0) with (X0, Y0, Z0) the drum centre in BodyParts3D metres; winding reversed after the mirror",
+    "meatusAlignment": "The canal’s bony part follows the axis of the external acoustic meatus traced in the BodyParts3D right temporal bone (cross-section centroids every 2 mm): laterally and ~25° backwards from the drum.",
+    "auricleShiftMm": 7.5
+  },
+  "dimensions": {
+    "basilarMembraneLengthMm": {
+      "model": 35.84725,
+      "expected": "≈33–35 mm uncoiled; width ≈0.1 mm at the base to ≈0.5 mm at the apex",
+      "sources": [
+        "pickles-2012"
+      ]
+    },
+    "cochlearCanalCentrelineMm": {
+      "model": 29.863051
+    },
+    "cochleaBaseWidthMm": {
+      "model": 9.599465
+    },
+    "cochleaHeightMm": {
+      "model": 6.612207
+    },
+    "cochleaTurns": {
+      "model": 2.6,
+      "expected": "2.5–2.75 turns; base ≈9 mm wide, ≈5 mm high",
+      "sources": [
+        "grays-42",
+        "openstax-hearing"
+      ]
+    },
+    "anteriorCanalDiameterMm": {
+      "model": 6.4,
+      "expected": "loops ≈6.5 mm across (lateral smaller), lumen ≈0.8–1 mm, mutually ~perpendicular, lateral canal ~30° up anteriorly",
+      "sources": [
+        "grays-42",
+        "della-santina-2005"
+      ]
+    },
+    "posteriorCanalDiameterMm": {
+      "model": 6.3
+    },
+    "lateralCanalDiameterMm": {
+      "model": 5.8
+    },
+    "auditoryTubeLengthMm": {
+      "model": 36.046848,
+      "expected": "≈36 mm, bony posterior third, antero-medio-inferior to the nasopharynx",
+      "sources": [
+        "grays-42"
+      ]
+    },
+    "earCanalLengthMm": {
+      "model": 26.955312,
+      "expected": "≈25 mm (24–26), outer third cartilage, inner two thirds bone, S-shaped",
+      "sources": [
+        "grays-42",
+        "openstax-hearing"
+      ]
+    },
+    "earCanalBonyMm": {
+      "model": 16
+    },
+    "earCanalCartilaginousMm": {
+      "model": 10.955312
+    },
+    "tympanicMembraneMm": {
+      "model": [
+        9.2,
+        8.2
+      ],
+      "expected": "9–10 × 8–9 mm; cone ~2 mm deep at the umbo; ~55° to the canal floor",
+      "sources": [
+        "grays-42"
+      ]
+    },
+    "tympanicMembraneConeDepthMm": {
+      "model": 2
+    },
+    "tympanicMembraneAngleToCanalFloorDeg": {
+      "model": 55.00798
+    },
+    "malleusLengthMm": {
+      "model": 8.024068,
+      "expected": "8–9 mm",
+      "sources": [
+        "grays-42"
+      ]
+    },
+    "incusLengthMm": {
+      "model": 6.536955,
+      "expected": "≈7 mm (long process), short process ≈5 mm",
+      "sources": [
+        "grays-42"
+      ]
+    },
+    "stapesHeightMm": {
+      "model": 3.180704,
+      "expected": "≈3.3 mm; footplate ≈3.0 × 1.4 mm",
+      "sources": [
+        "grays-42"
+      ]
+    },
+    "stapesFootplateMm": {
+      "model": [
+        3,
+        1.36
+      ]
+    },
+    "lateralCanalPitchDeg": {
+      "model": 30
+    },
+    "canalLumenMm": {
+      "model": 0.9
+    },
+    "canalPlaneAnglesDeg": {
+      "model": {
+        "anteriorPosterior": 90,
+        "anteriorLateral": 90,
+        "posteriorLateral": 90
+      }
+    },
+    "basilarMembraneWidthMm": {
+      "model": {
+        "base": 0.1,
+        "apex": 0.5
+      }
+    },
+    "mastoidAirCells": {
+      "model": 47
+    }
+  },
+  "clearancesMm": {
+    "chordaToMalleusMm": 0.041448,
+    "chordaToIncusMm": 0.459902,
+    "facialToLateralCanalMm": 0.108989,
+    "facialToStapesMm": 0.68486,
+    "cochleaToDrumMm": 0.870051,
+    "cochleaToMalleusMm": 0.422178,
+    "carotidToCochleaMm": 1.335866,
+    "sigmoidToPosteriorCanalMm": 6.117192,
+    "malleusToIncusMm": 0.122054,
+    "incusToStapesMm": 0.007165,
+    "cochlearTurnGapMm": 0.113057
+  },
+  "orientationChecks": {
+    "canalLateralOfDrum": true,
+    "ossiclesMedialOfDrum": true,
+    "stapesMostMedialOssicle": true,
+    "incusBehindMalleus": true,
+    "cochleaInFrontOfVestibule": true,
+    "cochleaApexAnteroLateralInferior": true,
+    "anteriorCanalHighest": true,
+    "posteriorCanalBehind": true,
+    "lateralCanalLateral": true,
+    "facialAboveOvalWindow": true,
+    "tubeGoesAnteroMedioInferior": true,
+    "carotidInFrontOfCochlea": true,
+    "sigmoidBehindLabyrinth": true,
+    "chordaBetweenMalleusAndIncus": true
+  },
+  "changesHere": "BodyParts3D: kept the right half of the external ear and moved it 7.5 mm laterally; subdivided and Taubin-smoothed the ear and the right temporal bone; merged and simplified the other skull bones; mirrored into the lab frame (x lateral) with the drum centre as origin. All other parts are modelled in code (tools/make-ear.mjs) from the dimensions listed here.",
+  "shadingBake": {
+    "tool": "tools/bake-shading.mjs",
+    "config": {
+      "$comment": "Shading bake for the real-tissue look (tools/bake-shading.mjs). occluders: which layers can shade each layer. The bones shade only bone (the skull ghost and the cut window would otherwise leave dark patches), and the ear parts shade only their neighbours. Distances are small because the inner ear is millimetre-scale; the auricle and the temporal bone, whose folds are centimetre-scale, search further (aoDistanceById); the temporal bone is shaded only by itself (occludersById), since the ghosted skull overlaps its lateral surface. The ossicles are not shaded by the eardrum they touch.",
+      "model": "public/models/ear.glb",
+      "provenance": "src/ear/generated/provenance.json",
+      "attribution": "public/ATTRIBUTION.md",
+      "aoDistance": 0.0012,
+      "aoDistanceById": {
+        "auricle": 0.005,
+        "temporal-bone": 0.006
+      },
+      "occludersById": {
+        "temporal-bone": [
+          "temporal-bone"
+        ]
+      },
+      "rays": 48,
+      "rayOffset": 0.00002,
+      "noiseFrequency": 2500,
+      "occluders": {
+        "bone": [
+          "bone"
+        ],
+        "outer": [
+          "outer"
+        ],
+        "middle": [
+          "middle",
+          "nerves"
+        ],
+        "inner": [
+          "inner",
+          "nerves"
+        ],
+        "nerves": [
+          "nerves",
+          "inner",
+          "middle"
+        ],
+        "vessels": [
+          "vessels"
+        ]
+      },
+      "fat": null
+    },
+    "attribute": "_TISSUE (VEC4 unsigned byte, normalised): r ambient occlusion, g mottling noise, b fat proximity, a unused",
+    "unbakedSha256": "e3df49194cb4a6f2c32883f82680a85c44372b0080293d457121f1a886105edb",
+    "unbakedOutput": {
+      "bytes": 4482480
+    },
+    "vertices": 123770,
+    "layers": {
+      "outer": {
+        "meshes": 4,
+        "meanAO": 0.949,
+        "vertices": 17842
+      },
+      "middle": {
+        "meshes": 8,
+        "meanAO": 0.905,
+        "vertices": 28126
+      },
+      "inner": {
+        "meshes": 17,
+        "meanAO": 0.402,
+        "vertices": 47785
+      },
+      "nerves": {
+        "meshes": 5,
+        "meanAO": 0.81,
+        "vertices": 8726
+      },
+      "vessels": {
+        "meshes": 2,
+        "meanAO": 0.987,
+        "vertices": 4470
+      },
+      "bone": {
+        "meshes": 2,
+        "meanAO": 0.907,
+        "vertices": 16821
+      }
+    }
+  }
+}

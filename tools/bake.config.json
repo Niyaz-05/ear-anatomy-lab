@@ -1,0 +1,42 @@
+{
+  "$comment": "Shading bake for the real-tissue look (tools/bake-shading.mjs). occluders: which layers can shade each layer. The bones shade only bone (the skull ghost and the cut window would otherwise leave dark patches), and the ear parts shade only their neighbours. Distances are small because the inner ear is millimetre-scale; the auricle and the temporal bone, whose folds are centimetre-scale, search further (aoDistanceById); the temporal bone is shaded only by itself (occludersById), since the ghosted skull overlaps its lateral surface. The ossicles are not shaded by the eardrum they touch.",
+  "model": "public/models/ear.glb",
+  "provenance": "src/ear/generated/provenance.json",
+  "attribution": "public/ATTRIBUTION.md",
+  "aoDistance": 0.0012,
+  "aoDistanceById": {
+    "auricle": 0.005,
+    "temporal-bone": 0.006
+  },
+  "occludersById": {
+    "temporal-bone": ["temporal-bone"]
+  },
+  "rays": 48,
+  "rayOffset": 0.00002,
+  "noiseFrequency": 2500,
+  "occluders": {
+    "bone": [
+      "bone"
+    ],
+    "outer": [
+      "outer"
+    ],
+    "middle": [
+      "middle",
+      "nerves"
+    ],
+    "inner": [
+      "inner",
+      "nerves"
+    ],
+    "nerves": [
+      "nerves",
+      "inner",
+      "middle"
+    ],
+    "vessels": [
+      "vessels"
+    ]
+  },
+  "fat": null
+}

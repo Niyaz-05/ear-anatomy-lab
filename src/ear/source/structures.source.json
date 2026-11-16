@@ -1,0 +1,262 @@
+{
+  "$comment": "Ear structures and where their geometry comes from. bp3d: BodyParts3D 4.0 part ids (Human Atlas build). modelled: built in code by tools/make-ear.mjs from the dimensions in provenance.json.",
+  "structures": [
+    {
+      "id": "auricle",
+      "layer": "outer",
+      "side": "right",
+      "bp3d": [
+        "FJ2811"
+      ],
+      "note": "BodyParts3D external ear, right half; moved 7.5 mm laterally so the cartilaginous canal fits; subdivided twice and smoothed."
+    },
+    {
+      "id": "ear-canal-cartilage",
+      "layer": "outer",
+      "side": "right",
+      "modelled": "Cartilaginous (outer third) part, 11.0 mm, from the bony meatus to the concha."
+    },
+    {
+      "id": "ear-canal-bone",
+      "layer": "outer",
+      "side": "right",
+      "modelled": "Bony (inner two thirds) part of the external acoustic meatus, 16 mm, aligned with the meatus of the BodyParts3D temporal bone; ends at the tympanic sulcus around the drum."
+    },
+    {
+      "id": "tympanic-membrane",
+      "layer": "outer",
+      "side": "right",
+      "modelled": "Ellipse 9.2 × 8.2 mm, a shallow cone 2 mm deep at the umbo, 0.1 mm thick; lateral face tilted ~55° to the canal floor and turned forwards."
+    },
+    {
+      "id": "malleus",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Head (in the epitympanic recess), neck, lateral and anterior processes, and the handle along the drum to the spatulate tip at the umbo; saddle facet for the incus."
+    },
+    {
+      "id": "incus",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Body (saddle joint with the malleus head), short process running back to the fossa incudis, long process descending behind the handle of the malleus, lenticular process turning medially to the stapes."
+    },
+    {
+      "id": "stapes",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Head with its facet for the lenticular process, neck, anterior and posterior crura around the obturator foramen, footplate 3.0 × 1.4 mm in the oval window."
+    },
+    {
+      "id": "tensor-tympani",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Tensor tympani: belly in its semicanal above the auditory tube; tendon turning laterally around the cochleariform process to the neck of the malleus."
+    },
+    {
+      "id": "stapedius",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Stapedius: belly in the pyramidal eminence beside the facial nerve; tendon forwards to the neck of the stapes."
+    },
+    {
+      "id": "tympanic-cavity",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Air space of the middle ear (ghosted): mesotympanum behind the drum, attic above it, hypotympanum below, protympanum leading to the auditory tube, the window niches and the aditus to the mastoid antrum. Its medial wall wraps the promontory (basal turn of the cochlea)."
+    },
+    {
+      "id": "mastoid-air-cells",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Mastoid antrum and 47 air cells, placed (deterministically) inside the BodyParts3D mastoid, clear of the facial nerve, canal, posterior semicircular canal and sigmoid sinus."
+    },
+    {
+      "id": "auditory-tube",
+      "layer": "middle",
+      "side": "right",
+      "modelled": "Pharyngotympanic (Eustachian) tube, 36 mm: bony posterior third narrowing to the isthmus, cartilaginous anterior two thirds flaring to the nasopharynx (lumen shown)."
+    },
+    {
+      "id": "cochlea",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Bony cochlea: 2.6 turns around the modiolus, apex pointing antero-laterally and down; hollow, open at the round window and towards the vestibule."
+    },
+    {
+      "id": "scala-vestibuli",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Perilymph space above the cochlear duct, from the vestibule to the helicotrema; swept meridional cross-sections."
+    },
+    {
+      "id": "scala-media",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Cochlear duct (endolymph): triangular, between the basilar membrane, Reissner’s membrane and the stria vascularis on the spiral ligament."
+    },
+    {
+      "id": "scala-tympani",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Perilymph space below the basilar membrane, from the helicotrema to the round window."
+    },
+    {
+      "id": "basilar-membrane",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Ribbon from the osseous spiral lamina to the spiral ligament, widening from 0.1 mm at the base to 0.5 mm at the apex (true widths, not exaggerated)."
+    },
+    {
+      "id": "oval-window",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "The oval window (fenestra vestibuli) with the annular ligament around the stapes footplate, 3.3 × 1.7 mm."
+    },
+    {
+      "id": "round-window",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Round window membrane (secondary tympanic membrane), 2.1 × 2.4 mm, closing the scala tympani."
+    },
+    {
+      "id": "vestibule",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Bony vestibule (perilymph), about 4 × 5 × 3 mm, with the oval window in its lateral wall."
+    },
+    {
+      "id": "utricle",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Utricle: elongated endolymph sac in the elliptical recess, receiving the five openings of the semicircular canals; its macula lies roughly horizontal."
+    },
+    {
+      "id": "saccule",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Saccule: smaller, rounded sac in the spherical recess, near the cochlea; its macula is roughly vertical."
+    },
+    {
+      "id": "anterior-canal",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Anterior semicircular canal: loop 6.4 mm across (303° of arc), lumen 0.9 mm; includes the crus commune shared with the posterior canal."
+    },
+    {
+      "id": "posterior-canal",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Posterior semicircular canal: loop 6.3 mm across (299° of arc), lumen 0.9 mm."
+    },
+    {
+      "id": "lateral-canal",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Lateral semicircular canal: loop 5.8 mm across (289° of arc), lumen 0.9 mm."
+    },
+    {
+      "id": "anterior-ampulla",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Ampulla of the anterior canal, about 2.0 × 1.6 mm, housing the crista ampullaris."
+    },
+    {
+      "id": "posterior-ampulla",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Ampulla of the posterior canal, about 2.0 × 1.6 mm, housing the crista ampullaris."
+    },
+    {
+      "id": "lateral-ampulla",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Ampulla of the lateral canal, about 2.0 × 1.6 mm, housing the crista ampullaris."
+    },
+    {
+      "id": "endolymphatic-sac",
+      "layer": "inner",
+      "side": "right",
+      "modelled": "Endolymphatic duct in the vestibular aqueduct and the flattened sac (about 8 × 5 mm) on the posterior surface of the petrous bone, under the dura."
+    },
+    {
+      "id": "vestibulocochlear-nerve",
+      "layer": "nerves",
+      "side": "right",
+      "modelled": "CN VIII trunk in the internal acoustic meatus (about 10 mm) and on to the cerebellopontine angle."
+    },
+    {
+      "id": "cochlear-nerve",
+      "layer": "nerves",
+      "side": "right",
+      "modelled": "Cochlear division: from the anteroinferior fundus into the modiolus, where the spiral ganglion lies."
+    },
+    {
+      "id": "vestibular-nerve",
+      "layer": "nerves",
+      "side": "right",
+      "modelled": "Superior division (utricle, anterior and lateral ampullae) and inferior division (saccule; posterior ampulla by the singular nerve)."
+    },
+    {
+      "id": "facial-nerve",
+      "layer": "nerves",
+      "side": "right",
+      "modelled": "CN VII: meatal, labyrinthine, geniculate ganglion (first genu), tympanic (above the oval window, below the lateral canal), second genu and mastoid segments to the stylomastoid foramen."
+    },
+    {
+      "id": "chorda-tympani",
+      "layer": "nerves",
+      "side": "right",
+      "modelled": "Branch of the facial nerve crossing the middle ear medial to the handle of the malleus and lateral to the long process of the incus."
+    },
+    {
+      "id": "internal-carotid-artery",
+      "layer": "vessels",
+      "side": "right",
+      "modelled": "Petrous internal carotid artery: vertical segment in the carotid canal anterior to the cochlea and medial to the auditory tube, genu, then the horizontal segment towards the petrous apex (landmark)."
+    },
+    {
+      "id": "sigmoid-sinus",
+      "layer": "vessels",
+      "side": "right",
+      "modelled": "Sigmoid sinus in its groove on the inner mastoid, curving down to the jugular bulb below the middle ear and on into the internal jugular vein (landmark)."
+    },
+    {
+      "id": "temporal-bone",
+      "layer": "bone",
+      "side": "right",
+      "bp3d": [
+        "FJ3386"
+      ],
+      "note": "BodyParts3D right temporal bone, subdivided once and smoothed. The viewer cuts a window around the middle and inner ear."
+    },
+    {
+      "id": "skull",
+      "layer": "bone",
+      "side": "right",
+      "bp3d": [
+        "FJ3200",
+        "FJ3274",
+        "FJ3380",
+        "FJ3309",
+        "FJ3394",
+        "FJ3199",
+        "FJ3281",
+        "FJ3269",
+        "FJ3375",
+        "FJ3287",
+        "FJ3392",
+        "FJ3272",
+        "FJ3378",
+        "FJ3273",
+        "FJ3379",
+        "FJ3395",
+        "FJ3263",
+        "FJ3369",
+        "FJ3265",
+        "FJ3371",
+        "FJ3289"
+      ],
+      "note": "The other skull bones and the mandible, merged and simplified (ghosted context)."
+    }
+  ]
+}
